@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Request_ChargingStation.Kazam">
+      <class name="com.utils.SendEmail">
         <methods>
-          <include name="Kazam_API"/>
+          <include name="testSendEmail"/>
         </methods>
-      </class> <!-- com.Request_ChargingStation.Kazam -->
+      </class> <!-- com.utils.SendEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

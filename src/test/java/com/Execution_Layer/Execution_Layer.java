@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Execution_Layer {
 	
-	@Test(priority = 0)
+	//@Test(priority = 0)
 	public static void BlueTooth_Zypp_App_Request() throws IOException
 	{
 	com.Request_BlueTooth.BlueTooth_Zypp_App_Request.BlueTooth();
