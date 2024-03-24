@@ -10,8 +10,8 @@ public class terracharge {
 	{
 	given()
 	.header("Content-Type","application/json")
-	.body(com.Body.Body_Zypp_App_API.chargingstations)
-	.when().get(com.Constants.Uri.terracharge)
+	//.body(com.Body.Body_Zypp_App_API.chargingstations)
+	.when().get(com.Constants.Base_Uri.terracharge)
 	.then().statusCode(202).log().all();
 }
 

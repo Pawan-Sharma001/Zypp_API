@@ -1,6 +1,6 @@
 package com.Constants;
 
-public class Uri {
+public class Base_Uri {
 	public static String Stage_uri="http://35.207.233.77:80/mobycy/api/secure/startNew/bluetooth/EB17925512/ride";
 	public static String Pre_Prod_uri="http://35.200.242.94/mobycy/api/secure/";
 	public static String Bolt_API="https://api.bolt.earth/discovery/v1/chargers/from-center";

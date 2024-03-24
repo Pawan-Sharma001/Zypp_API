@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 24 18:37:17 IST 2024</td>
+<td>Started on:</td><td>Sun Mar 24 20:48:19 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1575 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5216 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,9 +76,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Execution_Layer.Execution_Layer.API_Executions()'><b>API_Executions</b><br>Test class: com.Execution_Layer.Execution_Layer</td>
+<td title='com.Execution_Layer.Execution_Layer.BlueTooth_Zypp_App_Request()'><b>BlueTooth_Zypp_App_Request</b><br>Test class: com.Execution_Layer.Execution_Layer</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;202&gt; but was &lt;400&gt;.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
@@ -109,12 +109,12 @@ Expected status code &lt;202&gt; but was &lt;400&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.Request_ChargingStation.Kazam.Kazam_API(Kazam.java:18)
-	at com.Execution_Layer.Execution_Layer.API_Executions(Execution_Layer.java:14)
+	at com.Request_BlueTooth.BlueTooth_Zypp_App_Request.BlueTooth(BlueTooth_Zypp_App_Request.java:27)
+	at com.Execution_Layer.Execution_Layer.BlueTooth_Zypp_App_Request(Execution_Layer.java:13)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1600330912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1600330912'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;202&gt; but was &lt;400&gt;.
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace172711139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172711139'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
 
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -154,8 +154,8 @@ Expected status code &lt;202&gt; but was &lt;400&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at com.Request_ChargingStation.Kazam.Kazam_API(Kazam.java:18)
-	at com.Execution_Layer.Execution_Layer.API_Executions(Execution_Layer.java:14)
+	at com.Request_BlueTooth.BlueTooth_Zypp_App_Request.BlueTooth(BlueTooth_Zypp_App_Request.java:27)
+	at com.Execution_Layer.Execution_Layer.BlueTooth_Zypp_App_Request(Execution_Layer.java:13)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -183,8 +183,8 @@ Expected status code &lt;202&gt; but was &lt;400&gt;.
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.Execution_Layer.Execution_Layer@312aa7c</td></tr>
+<td>4</td>
+<td>com.Execution_Layer.Execution_Layer@536f2a7e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -198,7 +198,12 @@ Expected status code &lt;202&gt; but was &lt;400&gt;.
 <td title='com.utils.Extent_Reports_Suite.Test()'><b>Test</b><br>Test class: com.utils.Extent_Reports_Suite</td>
 <td></td>
 <td>0</td>
-<td>com.utils.Extent_Reports_Suite@25df00a0</td></tr>
+<td>com.utils.Extent_Reports_Suite@4d15107f</td></tr>
+<tr>
+<td title='com.Execution_Layer.Execution_Layer.Request_ChargingStation()'><b>Request_ChargingStation</b><br>Test class: com.Execution_Layer.Execution_Layer</td>
+<td></td>
+<td>0</td>
+<td>com.Execution_Layer.Execution_Layer@536f2a7e</td></tr>
 </table><p>
 </body>
 </html>

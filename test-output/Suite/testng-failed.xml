@@ -5,7 +5,7 @@
     <classes>
       <class name="com.Execution_Layer.Execution_Layer">
         <methods>
-          <include name="API_Executions"/>
+          <include name="BlueTooth_Zypp_App_Request"/>
         </methods>
       </class> <!-- com.Execution_Layer.Execution_Layer -->
     </classes>

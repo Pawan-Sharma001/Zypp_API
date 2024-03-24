@@ -14,8 +14,8 @@ public class Charging_Station {
 		given().auth().basic(user_Name, Pass).queryParam("latitude", "28.404297")
 				.queryParam("longitude", "77.058925")
 				.header("Content-Type","application/json")
-				.body(com.Body.Body_Zypp_App_API.chargingstations)
-				.when().get(com.Constants.Uri.Pre_Prod_uri.concat("chargingstations"))
+				//.body(com.Body.Body_Zypp_App_API.chargingstations)
+				.when().get(com.Constants.Base_Uri.Pre_Prod_uri.concat("chargingstations"))
 				.then().statusCode(200).log().all();
 	}
 
