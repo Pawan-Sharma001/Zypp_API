@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-
+<listeners>
+<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>	
+	
+</listeners>
   <test thread-count="5" name="Test">
     <classes>
-		 <class name="com.Execution_Layer.Execution_Layer"/>
-      <class name="com.utils.Extent_Reports_Suite"/>
-    </classes>
+		<!--  <class name="com.Execution_Layer.Execution_Layer"/>-->
+		<class name="com.TLDashbaord.TL_1_Api_to_login_in_fleet_app_existing_api"/>
+		<class name="com.TLDashbaord.TL_2_data_about_tl_above_the_table"/>
+		<class name="com.TLDashbaord.TL_3_api_for_table_of_drivers_under_a_tl"/>
+		<class name="com.TLDashbaord.TL_4_api_for_leader_board"/>
+		<class name="com.TLDashbaord.TL_5_api_for_earning_criteria"/>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

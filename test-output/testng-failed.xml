@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.utils.SendEmail">
+      <class name="com.TLDashbaord.TL_1_Api_to_login_in_fleet_app_existing_api">
         <methods>
-          <include name="testSendEmail"/>
+          <include name="TL_Login_With_InValid_Cred"/>
         </methods>
-      </class> <!-- com.utils.SendEmail -->
+      </class> <!-- com.TLDashbaord.TL_1_Api_to_login_in_fleet_app_existing_api -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,5 +2,6 @@ package com.Constants;
 
 public class Authorization {
 	public static String Authorization="Basic NzM1NTEzMzQ1ODokMmEkMTUka3RGU0VHWHZGRnFlRFNKLjd5SmxFT2RYUlpjWEFVNGdOdXNhUXN1MlNEWFJwWm16SEM4Ly4=";
-
+	public static String TL_Authorization="Basic OTUxNjAwNjc2MDokMmEkMTUkYnpxRHZzd0NrQWt5aFFybDdLa2ZudUNrUlR4WHp6QVRnS29FV2tpYnhRTUVhUTRyWERDcDY=";
+    public static String TL_TL_Authorization_Bearer_Token="eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5NTE2MDA2NzYwIiwiZXhwIjoxNzE0NTQ0Mjg3LCJqdGkiOiIxWlFhQnJjMDdqUDlPcnU1RmdXVTlBIiwiaWF0IjoxNzExOTUyMjg3LCJ1c2VyTmFtZSI6Ijk1MTYwMDY3NjAiLCJ1c2VySWQiOjI0MjM3NX0.yG1fhJgfVIt-AhK8x2QjZTrW8dnwakjLPvW7NpPHFIo";
 }
