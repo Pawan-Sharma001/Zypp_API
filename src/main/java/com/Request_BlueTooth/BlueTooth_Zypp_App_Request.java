@@ -23,7 +23,7 @@ public class BlueTooth_Zypp_App_Request {
 	
 	.body(com.Body.Body_Zypp_App_API.BlueTooth_Body)
 	.when()
-	.post(com.Constants.Base_Uri.Stage_uri)
+	.post(com.Constants.Base_Uri.BlueTooth_uri)
 	.then().statusCode(200).log().all();
 	}
 }

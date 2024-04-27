@@ -8,8 +8,8 @@ public class Bolt {
 	@Test
 	public static void Bolt_API()
 	{
-	given().queryParam("latitude", "28.404297")
-	       .queryParam("longitude", "77.058925")
+	given().queryParam("latitude", "12.91")//"latitude", "28.404297"
+	       .queryParam("longitude", "77.65")//"longitude", "77.058925"
 	       .queryParam("radius", "1000")
 	       .queryParam("vehicleType", "FOUR_WHEELER")
 	       .queryParam("isVerified", "false")
